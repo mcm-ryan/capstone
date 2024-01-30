@@ -1,12 +1,12 @@
 import './App.css';
-import { TicTacToe } from './Components/TicTacToe/TicTacToe';
+import { TicTacToe } from './Components/TicTacToe/TicTacToe.jsx';
 
 
 
 function App() {
   return (
     <div>
-      <TicTacToe></TicTacToe> 
+      <TicTacToe/>
     </div>
   );
 }
